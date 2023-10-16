@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    font-family: 'Archivo', sans-serif;
+    color:beige;
+}
+
+/*CSS NAVBAR*/
+
+.NavBar {
+    display: flex;
+    flex-direction:row ;
+    padding: 1.6rem;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    
+  }
+
+  .logo {
+    display: flex;
+    width: 14rem;
+    border-radius: 15px;
+    margin-left: 1.4rem;
+  }
+
+  .panier {
+    display: flex;
+    margin: rem;
+    width: 6rem;
+    margin-bottom: 7rem;
+    margin-right: 1rem;
+    border-radius: 15px;
+  }
+
+  .title {
+    color:beige;
+display: flex;
+font-size: 7rem;
+margin-right: 10rem;
+
+  }
+
+/*CSS CardList*/
+.list {
+    background-color: #9A031E;
+    padding-bottom: 2.5rem;
+}
+
+.buttonFilter {
+align-items: center;
+background-color: #CC052A;
+color: beige;
+border-radius: 15px;
+width: 270px;
+height: 50px;
+font-size: 25px;
+margin-top: 1.5rem;
+margin-left: 3rem;
+border: 5px solid black;
+}
+
+.Card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+border: 5px solid black;
+border-radius: 15px;
+margin: 20px;
+padding: 30px;
+font-size: 24px;
+text-align: center;
+width: 25rem;
+box-sizing: border-box;
+background-color:#CC052A
+
+  }
+  
+  .card-img {
+    width: auto;
+    height: 10rem;
+    margin-bottom: 0.5rem;
+    margin: 1rem;
+    margin-top: 3rem;
+    border-radius: 15px;
+  }
+
+.container {
+display: flex;
+flex-wrap: wrap;
+    justify-content: space-evenly;
+background-color: #9A031E;
+padding-top: 1.5rem;
+}
+
+.titleCard {
+    padding-top: 1rem;
+    height: 125px;
+}
+
+.description {
+    padding-top: 1rem;
+    width: auto;
+    padding-bottom: 1.5rem;
+    font-size: 17px;
+    height: 75px; 
+}
+
+.price {
+    margin-top: 1.5rem;
+}
+.category {
+    margin-top: 0rem;
+    font-size: 25px;
+    height: 75px;
+    padding-top: 1rem;
+}
+
+.buttonAdd {
+
+    height: 40px;
+    width: 120px;
+    border-radius: 15px;
+    font-size: 15px;
+    margin-top: auto;
+    color: black;
+
+}
+
+.CardContain {
+    height: 100%;
+    width: auto;
+    padding: 1rem;
+
+}
+
+/*CSS Footer*/
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+background-color: black;
+align-items: center;
+}
+
+.footerTitle {
+    font-size: 30px;
+    display: flex;
+    color: beige;
+    margin-left: 100rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    order: 3;
+;
+}
+
+.footerInfo {
+    display: flex;
+    flex-direction: row;
+    color: beige;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-width:260px;
+    max-width: 320px;
+    margin: 1rem;
+    order: 1; 
+    align-items: center;
+}
+
+.info {
+    margin: 1.5rem;
+    display: flex;
+}
+
+.logoFooter {
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+    order: -1;
+    margin-right: 2rem;
+    margin: 3rem;
+}

@@ -1,0 +1,159 @@
+ {
+    "articles": [
+          {
+            "title": "Souris d'Anthony",
+            "description": "Askip, ça fatigue moins les patounes et c'est ergonomique.",
+            "price": 79.99,
+            "image": "../../sourisantho.webp",
+            "category": "Matériel informatique"
+          },
+          {
+            "title": "SetUp stream complet by BatSav",
+            "description": "SetUp de streaming compet, utilisé par les plus grand streamer comme BatSav. 1000 viewers assuré ! (même sur Adibou)",
+            "price": 4499,
+            "image": "../../setupBat.jpg",
+            "category": "Matériel informatique"
+          },
+          {
+            "title": "Casque Audio Edition Jérémy",
+            "description": "Meilleur rapport qualité/prix. Attention, un redémarrage manuel est obligatoire toutes les 2h.",
+            "price": 89.99,
+            "image": "../../casquejerem.jpg",
+            "category": "Matériel informatique"
+          },
+          {
+            "title": "Plante d'intérieur",
+            "description": "La plante préféré de Pierre. Pas très belle mais vous apporte votre besoin journalier d'O².",
+            "price": 29.99,
+            "image": "../../plantepierre.webp",
+            "category": "Objet Useless"
+          },
+          {
+            "title": "Canard jaune",
+            "description": "Un canard jaune. Aucune idée de l'utilité, demandez à Morgane.",
+            "price": 7.99,
+            "image": "../../canard.jpg",
+            "category": "Objet Useless"
+          },
+          {
+            "title": "Fruit du démon du dev'",
+            "description": "Avec ce fruit, vous pouvez absolument TOUT developper sans connaissance. Attention, enlève la capacité de nager. (Mais quel dev' a le temps pour ça ?!)",
+            "price": 699999.99,
+            "image": "./../fruitdemon.jpeg",
+            "category": "Relique de Wilder"
+          },
+          
+          {
+            "title": "Relique de la mort: Basket de rapidité",
+            "description": "La relique du quatrième frère Peverell (Oui, oui, ils étaient 4... C'est une légende hein) Permet d'être tellement rapide que la mort vous rattrape jamais. Existe en couleur B4D455.",
+            "price": 899.99,
+            "image": "./../botterapide.jpg",
+            "category": "Relique de Wilder"
+          },
+          
+          {
+            "title": "La pastule de Doriane",
+            "description": "Pour faire tes meilleurs gâtals. (Oui oui on dit une pastule)",
+            "price": 17.99,
+            "image": "./../pastule.jpg",
+            "category": "Relique de Wilder"
+          },
+          
+          {
+            "title": "PorteFolio portatif avec hanse",
+            "description": "Fini les portefolio en ligne ! Voici le premier portefolio portatif pour transporter tous tes projets et en mettre plein la vue à ton futur boss ! (Attention aucun lien html ne peut être inséré)",
+            "price": 4.99,
+            "image": "./../portefolio.jpg",
+            "category": "Objet Useless"
+          },
+          
+          {
+            "title": "Ceinture Noire d'Océane",
+            "description": "Avec ça, aucun kata te résiste ! JS, CSS, taekwondo, karaté... ",
+            "price": 29.99,
+            "image": "./../ceinturenoir.webp",
+            "category": "Relique de Wilder"
+          },
+          
+          {
+            "title": "Platine de Flavien",
+            "description": "BABY SHARK TUTU TUTU TUTU BABY SHARK TUTU TUTU TUTU (c'est cadeau)",
+            "price": 159.99,
+            "image": "./../platine.webp",
+            "category": "Objet Useless"
+          },
+          
+          {
+            "title": "PHP pour les nuls",
+            "description": "Nan mais vraiment ?! Qui veut de ça ?!",
+            "price": 0,
+            "image": "./../php.jpg",
+            "category": "Objet Useless"
+          },
+          
+          {
+            "title": "Siège assis/debout",
+            "description": "Assis, debout et re assis derrière.",
+            "price": 129.99,
+            "image": "./../siege.webp",
+            "category": "Matériel informatique"
+          },
+          
+          {
+            "title": "Tablette de signature",
+            "description": "Une superbe tablette pour signer à 9h et 14h de façon propre (Un peu cher pour ce que c'est mais bon le confort n'a pas de prix)",
+            "price": 499,
+            "image": "./../tablette.jpg",
+            "category": "Matériel informatique"
+          },
+          
+          {
+            "title": "Gobelet avec café infini",
+            "description": "P'tite fatigue ? Les semaines sont longues et intenses ? Voici un gobelet avec café infini (attention à la tachycardie)",
+            "price": 17879,
+            "image": "./../gobelet.jpg",
+            "category": "Relique de Wilder"
+          },
+          
+          {
+            "title": "Spray anti-dinosaure",
+            "description": "Si un JuraScrîpt te colle un peu trop...",
+            "price": 8.99,
+            "image": "./../spray.webp",
+            "category": "Objet Useless"
+          },
+          
+          {
+            "title": "La canne à pêche de Samuel",
+            "description": "À toi toutes les morues de la mer !",
+            "price": 15.99,
+            "image": "./../canneapeche.jpg",
+            "category": "Objet Useless"
+          },
+          
+          {
+            "title": "Thon pour hacking",
+            "description": "Ton partenaire de Hack à thon.",
+            "price": 169.99,
+            "image": "./../thon.jpg",
+            "category": "Matériel informatique"
+          },
+          
+          {
+            "title": "SetUp pour ton chat",
+            "description": "Pour éviter qu'il te mette des poils partout quand tu dev'.",
+            "price": 259.99,
+            "image": "./../setupchat.jpg",
+            "category": "Matériel informatique"
+          },
+          
+          {
+            "title": "T-shirt dev'",
+            "description": "Le plus beau T-shirt pour te la pèter sur le meet !",
+            "price": 15,
+            "image": "./../tshirt.jpg",
+            "category": "Objet Useless"
+          }
+          
+]
+}
