@@ -7,7 +7,8 @@ function CardList() {
   const [selectedCategory, setSelectedCategory] = useState('');
   
     return (
-    <figure  className='list'>    
+    <figure  className='list'> 
+    <img className="transi" src='../../public/Rectangle4.jpg' alt='transition'></img>  
 <select 
     className='buttonFilter' 
     value={selectedCategory} 

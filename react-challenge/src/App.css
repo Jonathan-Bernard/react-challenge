@@ -25,20 +25,26 @@
 
   .panier {
     display: flex;
-    margin: rem;
+    margin: 0rem;
     width: 6rem;
     margin-bottom: 7rem;
     margin-right: 1rem;
     border-radius: 15px;
+    position: relative;
   }
 
   .title {
-    color:beige;
-display: flex;
-font-size: 7rem;
-margin-right: 10rem;
-
-  }
+    display: flex;
+    font-size: 7rem;
+    padding-left: 10rem;
+    color: white;
+    z-index: 3; 
+    mix-blend-mode: multiply;
+    background-color: black;
+    width: 100%;
+    height: auto;
+    
+}
 
 /*CSS CardList*/
 .list {
@@ -54,7 +60,6 @@ border-radius: 15px;
 width: 270px;
 height: 50px;
 font-size: 25px;
-margin-top: 1.5rem;
 margin-left: 3rem;
 border: 5px solid black;
 }
@@ -108,6 +113,7 @@ padding-top: 1.5rem;
 .price {
     margin-top: 1.5rem;
 }
+
 .category {
     margin-top: 0rem;
     font-size: 25px;
@@ -123,8 +129,40 @@ padding-top: 1.5rem;
     font-size: 15px;
     margin-top: auto;
     color: black;
+    background-color: beige;
 
 }
+.buttonAdd:hover {
+    animation: myAnim 2s ease 0s 1 normal forwards;
+}
+@keyframes myAnim {
+    0% {
+        animation-timing-function: ease-out;
+        transform: scale(1);
+        transform-origin: center center;
+    }
+
+    10% {
+        animation-timing-function: ease-in;
+        transform: scale(0.91);
+    }
+
+    17% {
+        animation-timing-function: ease-out;
+        transform: scale(0.98);
+    }
+
+    33% {
+        animation-timing-function: ease-in;
+        transform: scale(0.87);
+    }
+
+    45% {
+        animation-timing-function: ease-out;
+        transform: scale(1);
+    }
+}
+
 
 .CardContain {
     height: 100%;
@@ -179,4 +217,30 @@ align-items: center;
     order: -1;
     margin-right: 2rem;
     margin: 3rem;
+}
+
+
+
+
+/*test*/
+
+.showcase {
+    position: relative;
+    width: 100%;
+    height: 100%; 
+}
+
+
+
+.showcase video {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.transi {
+    width: 100%;
 }
